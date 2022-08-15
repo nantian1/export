@@ -21,6 +21,7 @@ public class TaskSegTest {
         if(null != jsonR.get("json1")){
            JSONObject json = (JSONObject) jsonR.get("json1");
            json.put("age",12);
+           json.put("id","1367819272");
         }
         System.out.println(jsonR);
 
